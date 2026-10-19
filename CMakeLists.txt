@@ -12,6 +12,8 @@ endif()
 #
 # Option prep
 #
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
+set(OpenGL_GL_PREFERENCE "GLVND")
 add_compile_definitions(SFML_STATIC)
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "Turn off to disable SFML building shared libs" FORCE)
 set(PA_DISABLE_INSTALL ON CACHE BOOL "Disable targets install and uninstall (for embedded builds)" FORCE)

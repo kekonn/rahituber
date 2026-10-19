@@ -416,3 +416,6 @@ lib_old/
 *[Ll]og.*
 /RahiTuber/build/-gccDesktop_GCC-RelWithDebInfo
 /RahiTuber/spout2
+
+#Jetbrains
+.idea/
